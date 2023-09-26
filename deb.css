@@ -1,0 +1,19 @@
+#aboutme{
+    color: aliceblue;
+    text-align: center;
+    width: 40%;
+    padding-left:30%;
+    font-size: 50px;
+    font-family: monospace;
+}
+#a{color: red;}
+#b{color: orangered;}
+#o{color: orange;}
+#u{color:yellow}
+#t{color: yellowgreen;}
+#m{color: chartreuse;}
+#e{color:green}
+body{
+    justify-items: center;
+    padding: 10%;
+}

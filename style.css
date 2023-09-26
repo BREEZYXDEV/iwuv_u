@@ -1,0 +1,36 @@
+#background{
+    max-width: 100%;
+  height: auto;
+  size:cover
+}
+@media (min-width: 768px) {
+    /* Styles for screens wider than 768px */
+  }
+.content{
+        position: absolute; /* Position the text absolutely within the container */
+                top: 20%; /* Adjust the vertical position */
+                left: 50%; /* Adjust the horizontal position */
+                transform: translate(-50%, -50%); /* Center the text horizontally and vertically */
+                padding: 10px; /* Add padding for better readability */
+                justify-items: center;
+}
+h1{
+    color: rgb(150, 5, 5);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    padding-top:10%; 
+    text-shadow:
+        -1px -1px 0 #fff, /* Top-left shadow (light) */
+         1px -1px 0 #fff, /* Top-right shadow (light) */
+        -1px 1px 0 #fff, /* Bottom-left shadow (light) */
+         1px 1px 0 #000000; 
+}
+.wave{
+    padding-top: 120%;
+}
+h5{
+    font-family: monospace;
+}
+button{
+    margin-left: 20%;
+}
